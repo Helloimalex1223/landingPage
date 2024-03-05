@@ -197,4 +197,43 @@ header img
 
 /* CTA Section */
 
+.CTAWrapper
+{
+    border-radius: .5rem;
+    background-color: var(--accent-color);
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
 
+.CTAHeading
+{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.CTAText
+{
+    width: 90%;
+}
+
+.CTAP
+{
+    margin-top: 0;
+}
+
+.CTA button
+{
+    width: 20%;
+    flex-shrink: 0;
+    align-self: center;
+    padding: 1rem;
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: .5rem;
+    color: white;
+    background-color: #3882F6;
+}
